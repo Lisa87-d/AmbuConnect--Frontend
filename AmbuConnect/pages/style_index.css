@@ -1,0 +1,188 @@
+Reset and base styles
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #233657, #73e3f7);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.styled-imaged {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  
+}
+
+/* Navigation */
+
+ .nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #233657;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Features */
+.features {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.feature-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 250px;
+}
+
+/* Footer */
+footer {
+  background-color: #f3f3f5;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem; 
+
+  background-color: #024979;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+/* About Section */
+.about-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+}
+
+.about-box h2 {
+  color: #233657;
+  margin-bottom: 1rem;
+}
+
+.highlight-section {
+  background: #bce0f1;
+  border: 1px solid #ecc4c4;
+}
+
+/* Why Choose Us grid */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Each card */
+.about-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 5px solid #011f30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 280px;
+}
+
+/* Icon style inside card */
+.about-card .icon {
+  background-color: #9ccaf5;
+  color: white;
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* Text styling */
+.about-card .text {
+  font-size: 1.1rem;
+  color: #233657;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.about-card .text small {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Hover effect */
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}          
+
+  
+
+
